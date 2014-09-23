@@ -215,7 +215,7 @@ a:active, a:hover {
 }
 @media all and (min-width: 0px) {
     header {text-align: center;}
-    main .site{padding:50px 10px 0px;}
+    main .site{padding:70% 10px 0px;}
    footer .site{padding:0px 10px;}
     #logo{display:inline-block;}
     h1 {
@@ -236,9 +236,9 @@ a:active, a:hover {
 }
 @media (min-width: 48em) {
 
-    main .site{padding:110px 10px 0px;}
+    main .site{padding:52% 10px 0px;}
     footer .site{padding:0px 10px;}
-    h1 {font-size: 3em;margin: 0px 0px 15px 0px;}
+    h1 {font-size: 2em;margin: 0px 0px 15px 0px;}
     #logo{display:inline-block;}
     main p {font-size: 1.8em; margin: 0px 0px 15px 0px;}
 }
@@ -246,10 +246,10 @@ a:active, a:hover {
 
 @media (min-width: 64em) {
     #logo{float:left;}
-    main .site{padding-top:210px;}
-    h1 {font-size: 4em; margin: 0px 0px 20px 0px;}
+    main .site{padding-top:22%;}
+    h1 {font-size: 2em; margin: 0px 0px 20px 0px;}
 
-    main p {font-size: 1.8em;margin: 0px 0px 20px 0px;}
+    main p {font-size: 1em;margin: 0px 0px 20px 0px;}
 }
 
 
