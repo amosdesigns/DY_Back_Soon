@@ -215,7 +215,8 @@ a:active, a:hover {
 }
 @media all and (min-width: 0px) {
     header {text-align: center;}
-    main .site{padding-top:90px;}
+    main .site{padding:50px 10px 0px;}
+   footer .site{padding:0px 10px;}
     #logo{display:inline-block;}
     h1 {
         font-family: "Linotype Didot W01", Didot, Garamond, "Times New Roman", serif;
@@ -235,7 +236,8 @@ a:active, a:hover {
 }
 @media (min-width: 48em) {
 
-    main .site{padding-top:110px;}
+    main .site{padding:110px 10px 0px;}
+    footer .site{padding:0px 10px;}
     h1 {font-size: 3em;margin: 0px 0px 15px 0px;}
     #logo{display:inline-block;}
     main p {font-size: 1.8em; margin: 0px 0px 15px 0px;}
