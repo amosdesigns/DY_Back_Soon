@@ -1,4 +1,4 @@
 archive
 node_modules
-.idea/webResources.xml
-.idea/libraries
+.idea/*
+

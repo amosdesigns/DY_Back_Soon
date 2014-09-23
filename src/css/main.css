@@ -8,12 +8,110 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face {
+    font-family: "Trade Gothic W01_n7";
+    src: url("fonts/257c802f-349c-4b4d-aefa-546d5de15ec6.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Trade Gothic W01";
+    src: url("fonts/257c802f-349c-4b4d-aefa-546d5de15ec6.eot?#iefix");
+    src: url("fonts/257c802f-349c-4b4d-aefa-546d5de15ec6.eot?#iefix") format("eot"), url("fonts/5fdc935e-9e30-442a-bbe9-8d887b858471.woff") format("woff"), url("fonts/616c4c87-a077-43f4-a9f4-f01267c13818.ttf") format("truetype"), url("fonts/c901ad5f-a842-4549-a1f4-583a97f7e169.svg#c901ad5f-a842-4549-a1f4-583a97f7e169") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Trade Gothic W01_n4";
+    src: url("fonts/413d9688-00d4-47c4-bb55-656a0cd396e9.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Trade Gothic W01";
+    src: url("fonts/413d9688-00d4-47c4-bb55-656a0cd396e9.eot?#iefix");
+    src: url("fonts/413d9688-00d4-47c4-bb55-656a0cd396e9.eot?#iefix") format("eot"), url("fonts/c4aef0d4-bfcf-4790-acf5-909881f411e8.woff") format("woff"), url("fonts/e741f29c-bc18-4343-bff3-db2465a0be3e.ttf") format("truetype"), url("fonts/853e2a9b-4057-42a5-ad7e-0762cda0b13c.svg#853e2a9b-4057-42a5-ad7e-0762cda0b13c") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Linotype Didot W01_n4";
+    src: url("fonts/dd077a5a-5331-4833-8a24-e3afbe24d92e.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Linotype Didot W01";
+    src: url("fonts/dd077a5a-5331-4833-8a24-e3afbe24d92e.eot?#iefix");
+    src: url("fonts/dd077a5a-5331-4833-8a24-e3afbe24d92e.eot?#iefix") format("eot"), url("fonts/8cf278e2-5b07-4c21-97da-4762c9ea76c1.woff") format("woff"), url("fonts/488ffbea-dc53-43b4-a9e2-d5bff132a85d.ttf") format("truetype"), url("fonts/972bb961-7f13-4e8d-8c1f-034e3f4e7517.svg#972bb961-7f13-4e8d-8c1f-034e3f4e7517") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Minion W01_i4";
+    src: url("fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Minion W01";
+    src: url("fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix");
+    src: url("fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix") format("eot"), url("fonts/e364b06d-aac3-4a54-84ff-4b3a2860debb.woff") format("woff"), url("fonts/6346c02d-13da-4d5c-ab2e-13e40d7f24c2.ttf") format("truetype"), url("fonts/8cda8fb2-6a3e-4e20-b063-4fbfca0025e5.svg#8cda8fb2-6a3e-4e20-b063-4fbfca0025e5") format("svg");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Minion W01_n5";
+    src: url("fonts/7acfff0f-0329-440b-9afc-84fbf9a94c6f.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Minion W01";
+    src: url("fonts/7acfff0f-0329-440b-9afc-84fbf9a94c6f.eot?#iefix");
+    src: url("fonts/7acfff0f-0329-440b-9afc-84fbf9a94c6f.eot?#iefix") format("eot"), url("fonts/d1a52e01-0640-45b7-8a55-c8cbc7a0c01f.woff") format("woff"), url("fonts/226d0bdb-b941-460d-9637-f54f596b792c.ttf") format("truetype"), url("fonts/6a389bd3-e422-4a95-88e7-cf626430c977.svg#6a389bd3-e422-4a95-88e7-cf626430c977") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Minion W01_n4";
+    src: url("fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Minion W01";
+    src: url("fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix");
+    src: url("fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix") format("eot"), url("fonts/62100580-a2d1-4d98-bb14-d4c4c3f1a5ba.woff") format("woff"), url("fonts/7ae8e168-1c29-4fcb-bb59-0043c943df3b.ttf") format("truetype"), url("fonts/cfa664d4-e518-4a49-b8a3-fccec93c29c1.svg#cfa664d4-e518-4a49-b8a3-fccec93c29c1") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Minion W01_n7";
+    src: url("fonts/b18202c1-131a-425a-b84d-fdd5a85b6b13.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Minion W01";
+    src: url("fonts/b18202c1-131a-425a-b84d-fdd5a85b6b13.eot?#iefix");
+    src: url("fonts/b18202c1-131a-425a-b84d-fdd5a85b6b13.eot?#iefix") format("eot"), url("fonts/684d90d7-12e2-46fc-8776-cfa0c9bffeff.woff") format("woff"), url("fonts/a6dc410d-45b6-4a66-8143-43f59c362a8b.ttf") format("truetype"), url("fonts/cae2aa90-12f3-4dab-8a67-205fbdf0f046.svg#cae2aa90-12f3-4dab-8a67-205fbdf0f046") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
 html {
+    font-family:  "Linotype Didot W01", Didot, Garamond, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 100;
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    position:relative;
+    width:100%;
+    padding:0px;
+    margin:0px;
 }
-
+body{margin:0px;padding:0px;}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -89,6 +187,68 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header{background: #000;color:#fff;height:41px;width:100%;padding-top:50px;}
+footer{width:100%;font-size: 1em;line-height:1;}
+main .site,footer .site{text-align: center;}
+
+.site{margin: 0 auto;
+    max-width: 1366px;
+    min-width: 320px;
+    position:relative;
+}
+#logo{
+    background: url('../img/logo.png') no-repeat  10px 0px rgba(0, 0, 0, 0);
+    height: 21px;
+    overflow: hidden;
+    position: relative;
+    text-indent: -9999px;
+    width: 275px;
+
+
+}
+a{text-decoration: none;color:#000;}
+a:active, a:hover {
+    outline: 0 none;
+}
+.email:hover {
+    border-bottom: 1px dotted #000;
+}
+@media all and (min-width: 0px) {
+    header {text-align: center;}
+    main .site{padding-top:90px;}
+    #logo{display:inline-block;}
+    h1 {
+        font-family: "Linotype Didot W01", Didot, Garamond, "Times New Roman", serif;
+        color: #000;
+        font-size: 2em;
+        line-height: 1;
+        margin: 0px 0px 10px 0px;
+    }
+
+    main p {
+        font-style: italic;
+        color: #000;
+        font-size: 1em;
+        line-height: 1;
+        margin: 0px 0px 10px 0px;;
+    }
+}
+@media (min-width: 48em) {
+
+    main .site{padding-top:110px;}
+    h1 {font-size: 3em;margin: 0px 0px 15px 0px;}
+    #logo{display:inline-block;}
+    main p {font-size: 1.8em; margin: 0px 0px 15px 0px;}
+}
+
+
+@media (min-width: 64em) {
+    #logo{float:left;}
+    main .site{padding-top:210px;}
+    h1 {font-size: 4em; margin: 0px 0px 20px 0px;}
+
+    main p {font-size: 1.8em;margin: 0px 0px 20px 0px;}
+}
 
 
 
